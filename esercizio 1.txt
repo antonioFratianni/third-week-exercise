@@ -1,0 +1,12 @@
+| Question                                         | Name         | Inline or block? |
+|--------------------------------------------------+--------------+------------------|
+| I'm the #1 heading.                              | <h1>         | block            |
+| I'm all ready to link to another page.           | <a>          | inline           |
+| Emphasize text with me.                          | <em> - <i>   | inline           |
+| I'm a list, but I doni have my affairs in order. | <ul>         | block            |
+| I'm a real linebreaker.                          | <br>         | inline           |
+| I'm an item that lives inside a list.            | <li>         | block            |
+| I keep my list items in order.                   | <ol>         | block            |
+| I'm all about image.                             | <img>        | inline           |
+| Quote inside a paragraph with me.                | <q>          | inline           |
+| Use me to quote text that stands on its own.     | <blockquote> | block            |

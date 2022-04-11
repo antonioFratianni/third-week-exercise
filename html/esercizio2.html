@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="../css/esercizio2.css">
+
+  <title>Questionario</title>
+</head>
+
+<body>
+
+  <div class="center">
+    <h1>Questionario di raccolta dati per creare una rete</h1>
+  </div>
+  <div class="center">
+    <p>I dati indicati di seguito sono solo alcuni di quelli necessari da raccogliere prima di mettersi alle prese con
+      la realizzazione di una rete.<br>
+      È in primo luogo necessario capire le funzioni della rete,a cosa è dedicata? Quanto deve essere grande?<br>
+      Sappiamo già che ci sarà un solo modem/router? Oppure serve qualcosa di più complesso?<br>
+      Quindi è necessario capire quanti e quali sono i device che apparterranno alla rete? Quali sono le
+      caratteristiche di questi device?<br> Infine una volta raccolti tutti i dati si può finalmente partire con la
+      progettazione della rete</p>
+  </div>
+
+  <div class="container">
+
+    <h3>Step 1: Dati della rete</h3>
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="nomeCognome">Nome e Cognome del responsabile</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="nomeCognome" name="nomeCognome" placeholder="Nome e Cognome">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="indirizzo">Indirizzo</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="indirizzo" name="indirizzo" placeholder="indirizzo">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="sedi">Numero delle sedi dell`azienda</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="sedi" name="sedi" placeholder="sedi">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="data">Data di compilazione</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="data" name="data" placeholder="gg/mm/aaaa">
+        </div>
+      </div>
+
+      <h3>Step 2: Dimensioni della rete in base alla tipologia</h3>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="lan">LAN</label>
+        </div>
+        <div class="col-75 centeredBox">
+          <input type="checkbox" id="lan" name="lan" value="LAN">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="man">MAN</label>
+        </div>
+        <div class="col-75 centeredBox">
+          <input type="checkbox" id="man" name="man" value="MAN">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="wan">WAN</label>
+        </div>
+        <div class="col-75 centeredBox">
+          <input type="checkbox" id="wan" name="wan" value="WAN">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="altro">Altro</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="altro" name="altro" placeholder="Specificare">
+        </div>
+      </div>
+
+      <h3>Step 3: È già nota la forma della rete(topologia)</h3>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="stella">A stella</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" id="stella" name="topologia" value="STELLA">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="bus">A bus</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" id="bus" name="topologia" value="BUS">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25 ">
+          <label for="albero">Ad albero</label>
+        </div>
+        <div class="col-75">
+          <input type="radio" id="albero" name="topologia" value="ALBERO">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="altro">Altro</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="altro" name="altro" placeholder="Specificare">
+        </div>
+      </div>
+
+      <h3>Step 4: Caratteristiche del PC</h3>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="processore">Processore</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="processore" name="processore" placeholder="Processore">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="ram">RAM</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="ram" name="ram" placeholder="RAM">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="c">C</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="c" name="c" placeholder="c">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="d">D</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="d" name="d" placeholder="d">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

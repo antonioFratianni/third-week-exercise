@@ -1,0 +1,27 @@
+function validateForm() {
+    let cognome = document.forms["form"]["cognome"].value;
+    if (cognome == "") {
+        alert("Il campo cognome non può essere vuoto");
+        return false;
+    }
+
+    let nome = document.forms["form"]["nome"].value;
+    if (nome == "") {
+        alert("Il campo nome non può essere vuoto");
+        return false;
+    }
+
+    let matricola = document.forms["form"]["matricola"].value;
+    if (isNaN(matricola)) {
+        alert("La matricola deve essere un numero");
+        return false;
+    }
+
+    let email = document.forms["form"]["email"].value;
+    let telefono = document.forms["form"]["telefono"].value;
+    if ((email == "") && (telefono == "")) {
+        alert("I campi email e telefono non possono essere entrambi vuoti");
+        return false;
+    }
+
+}
